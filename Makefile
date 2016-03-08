@@ -1,4 +1,4 @@
 edit:
-  g++ -o HW5 main.cpp workblock.cpp counter.cpp utils.cpp
+        g++ -o HW5 main.cpp wordblock.cpp counter.cpp utils.cpp
 clean:
-  rm -rf HW5
+        rm -rf HW5
