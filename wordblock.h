@@ -8,9 +8,10 @@ typedef struct  wordBlock
 	std::string word;
 	//Store the lines it occurs in
 	std::vector<int> lines;
-	wordBlock(std::string str)
+	wordBlock(std::string str, int num)
 	{
 		word = str;
+		lines.push_back(num);
 		return;
 	}
 	wordBlock()
