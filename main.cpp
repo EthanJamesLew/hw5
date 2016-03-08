@@ -20,5 +20,5 @@ int main()
 	assert(c->lines == g);
 
 	Counter h = Counter();
-	h.printWords();
+	h.printCount();
 }
